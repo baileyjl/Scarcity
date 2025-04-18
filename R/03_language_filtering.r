@@ -1,5 +1,11 @@
 # ======================== Language Detection ==========================
 
+# Load libraries
+library(dplyr)
+library(cld2)
+library(here)
+
+
 # Load the filtered dataset from the previous step
 scarcity_data <- readRDS(here("data", "processed", "scarcity_filtered.rds"))
 

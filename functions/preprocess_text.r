@@ -1,5 +1,11 @@
 # ======================== Text Preprocessing Function =================
 
+# Load libraries
+library(dplyr)
+library(stringr)
+library(cleanTextNLP)
+
+# Function to preprocess text
 preprocess_text_data <- function(data,
                                  extra_stopwords,
                                  stanford_stopwords,

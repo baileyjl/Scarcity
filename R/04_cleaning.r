@@ -1,5 +1,9 @@
 # ======================== Text Cleaning ===============================
 
+# Load libraries
+library(dplyr)
+library(here)
+
 # Source the cleaning function
 source(here("functions", "preprocess_text.R"))
 

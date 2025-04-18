@@ -1,5 +1,10 @@
 # ======================== Select & Join Data ==========================
 
+# Load libraries
+library(dplyr)
+library(here)
+
+
 # Select variables of interest
 ai_labelled <- final_labelled %>%
   select(doc_id, product_scarcity_gpt, financial_scarcity_gpt, cleaned_text)
