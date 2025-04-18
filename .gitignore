@@ -1,0 +1,22 @@
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+*.Rproj
+
+# dData files
+*.csv
+*.xlsx
+*.rds
+*.rda
+*.sav
+
+# Output
+*.pdf
+*.png
+*.html
+*.docx
+
+# System files
+.DS_Store
+Thumbs.db
